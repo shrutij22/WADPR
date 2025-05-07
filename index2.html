@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Update DOM using jQuery</title>
+  <!-- Add jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <div>
+    <h1 id="greeting">Hello, World!</h1>
+    <button id="updateBtn">Change Greeting</button>
+  </div>
+
+  <script>
+    // jQuery to update DOM when the button is clicked
+    $(document).ready(function() {
+      $('#updateBtn').click(function() {
+        $('#greeting').text('Hello, jQuery!');  // Update the text of <h1>
+      });
+    });
+  </script>
+</body>
+</html>
+
+// directly open this file on browser to run
