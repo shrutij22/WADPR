@@ -1,4 +1,5 @@
-// Import the 'http' module
+
+//5.	Create HTTP server using Node JS// Import the 'http' module
 const http = require('http');
 
 // Create a server
