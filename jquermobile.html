@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple jQuery Mobile Page</title>
+    <!-- Include jQuery Mobile CSS -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.5.2/jquery.mobile-1.5.2.min.css" />
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Include jQuery Mobile JS -->
+    <script src="https://code.jquery.com/mobile/1.5.2/jquery.mobile-1.5.2.min.js"></script>
+    <style>
+        .ui-page {
+            background-color: #f0f0f0;
+        }
+        .ui-header {
+            background-color: #009688;
+            color: white;
+        }
+        .ui-footer {
+            background-color: #009688;
+            color: white;
+        }
+        .ui-content {
+            padding: 20px;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <!-- Page structure in jQuery Mobile -->
+    <div data-role="page">
+        
+        <!-- Header -->
+        <div data-role="header">
+            <h1>Welcome to jQuery Mobile</h1>
+        </div>
+
+        <!-- Content area -->
+        <div role="main" class="ui-content">
+            <p>This is a simple webpage designed using jQuery Mobile.</p>
+            <a href="#about" class="ui-btn ui-btn-inline">Learn More</a>
+        </div>
+
+        <!-- Footer -->
+        <div data-role="footer">
+            <h4>Footer Text</h4>
+        </div>
+        
+    </div>
+
+    <!-- About Page (for demonstration purposes) -->
+    <div data-role="page" id="about">
+        <div data-role="header">
+            <h1>About Us</h1>
+        </div>
+        <div role="main" class="ui-content">
+            <p>Here is more information about this page.</p>
+            <a href="#" class="ui-btn ui-btn-inline">Back to Home</a>
+        </div>
+        <div data-role="footer">
+            <h4>Footer Text</h4>
+        </div>
+    </div>
+
+</body>
+</html>
