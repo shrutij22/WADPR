@@ -16,3 +16,10 @@ function App() {
 }
 
 export default App;
+//process to run this 
+// use npx-my-react-app folder_name (folder should be empty)
+// cd folder_name
+
+// replace app.js contents 
+
+// npm start
